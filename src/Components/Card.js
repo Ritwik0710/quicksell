@@ -6,7 +6,7 @@ function Card({ cardData, userData }) {
   return (
     <div className='card-container'>
       
-      <div className='id' >{cardData.id} {userData?.[cardData?.userId]}</div>
+      <div className='card-head'><div className='id' >{cardData.id}</div><div className='id'>{userData?.[cardData?.userId]}</div></div>
       <div style={{height: '10px'}} />
       <div className='title'>{cardData.title}</div>
       <div style={{height: '10px'}} />

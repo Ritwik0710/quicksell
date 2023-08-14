@@ -7,6 +7,10 @@
     height: 75px;
     background-color: white;
 }
+.card-head{
+    display: flex;
+    justify-content: space-between;
+}
 .title {
     font-size: 10px;
     font-weight: 500;
