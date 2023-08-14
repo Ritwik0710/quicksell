@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #f4f5f8;
+  
 }
 
 .App-logo {
@@ -7,10 +9,26 @@
   pointer-events: none;
 }
 
+.tickets-container{
+  display: flex;
+  justify-content: space-evenly;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.dropdown{
+  height: 70px;
+  background-color: white;
+  display: flex;
+
+
+}
+.drop-Button{
+  display: flex;
+  padding: 20px;
+  font-size: 10px;
 }
 
 .App-header {
@@ -22,7 +40,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
+.header{
+  font-size: 10px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-block: 20px;
+}
+
 
 .App-link {
   color: #61dafb;
